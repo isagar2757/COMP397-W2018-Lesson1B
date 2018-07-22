@@ -14,7 +14,8 @@
         Main();
     }
     function Update() {
-        helloLabel.rotation -= 5;
+        /* helloLabel.rotation -= 5;
+         console.log(helloLabel.rotation.toString);*/
         stage.update(); //redraws the stage
     }
     function Main() {
